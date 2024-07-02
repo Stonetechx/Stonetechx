@@ -1,0 +1,43 @@
+body {
+    background-color: #f0f8ff; /* Bleu clair pour le fond */
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #ff4500; /* Orange foncé pour le titre */
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    border: 2px solid #008080; /* Bleu-vert pour la bordure */
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+textarea#outputText {
+    height: 200px;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Couleur de fond pour différencier */
+}
+
+button {
+    background-color: #32cd32; /* Vert lime pour le bouton */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #228b22; /* Vert forêt pour le bouton au survol */
+}
